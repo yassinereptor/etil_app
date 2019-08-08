@@ -1,0 +1,226 @@
+PODS:
+  - "!ProtoCompiler (3.8.0)":
+    - Protobuf (~> 3.0)
+  - audioplayers (0.0.1):
+    - Flutter
+  - connectivity (0.0.1):
+    - Flutter
+    - Reachability
+  - fast_qr_reader_view (0.0.1):
+    - Flutter
+  - Firebase/Analytics (6.2.0):
+    - Firebase/Core
+  - Firebase/Core (6.2.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 6.0.1)
+  - Firebase/CoreOnly (6.2.0):
+    - FirebaseCore (= 6.0.2)
+  - firebase_core (0.0.1):
+    - Firebase/Core
+    - Flutter
+  - FirebaseAnalytics (6.0.1):
+    - FirebaseCore (~> 6.0)
+    - FirebaseInstanceID (~> 4.1)
+    - GoogleAppMeasurement (= 6.0.1)
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
+    - GoogleUtilities/MethodSwizzler (~> 6.0)
+    - GoogleUtilities/Network (~> 6.0)
+    - "GoogleUtilities/NSData+zlib (~> 6.0)"
+    - nanopb (~> 0.3)
+  - FirebaseCore (6.0.2):
+    - GoogleUtilities/Environment (~> 6.0)
+    - GoogleUtilities/Logger (~> 6.0)
+  - FirebaseInstanceID (4.2.2):
+    - FirebaseCore (~> 6.0)
+    - GoogleUtilities/Environment (~> 6.0)
+    - GoogleUtilities/UserDefaults (~> 6.0)
+  - Flutter (1.0.0)
+  - flutter_beacon (0.2.2):
+    - Flutter
+  - flutter_blue (0.0.1):
+    - "!ProtoCompiler"
+    - Flutter
+    - flutter_blue/Protos (= 0.0.1)
+  - flutter_blue/Protos (0.0.1):
+    - "!ProtoCompiler"
+    - Flutter
+    - Protobuf
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - "geolocator (5.1.1+1)":
+    - Flutter
+  - google_api_availability (2.0.1):
+    - Flutter
+  - google_maps_flutter (0.0.1):
+    - Flutter
+    - GoogleMaps
+  - GoogleAppMeasurement (6.0.1):
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
+    - GoogleUtilities/MethodSwizzler (~> 6.0)
+    - GoogleUtilities/Network (~> 6.0)
+    - "GoogleUtilities/NSData+zlib (~> 6.0)"
+    - nanopb (~> 0.3)
+  - GoogleMaps (3.2.0):
+    - GoogleMaps/Maps (= 3.2.0)
+  - GoogleMaps/Base (3.2.0)
+  - GoogleMaps/Maps (3.2.0):
+    - GoogleMaps/Base
+  - GoogleUtilities/AppDelegateSwizzler (6.2.3):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (6.2.3)
+  - GoogleUtilities/Logger (6.2.3):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (6.2.3):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (6.2.3):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (6.2.3)"
+  - GoogleUtilities/Reachability (6.2.3):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (6.2.3):
+    - GoogleUtilities/Logger
+  - intro_slider (0.0.1):
+    - Flutter
+  - location_permissions (2.0.2):
+    - Flutter
+  - nanopb (0.3.901):
+    - nanopb/decode (= 0.3.901)
+    - nanopb/encode (= 0.3.901)
+  - nanopb/decode (0.3.901)
+  - nanopb/encode (0.3.901)
+  - path_provider (0.0.1):
+    - Flutter
+  - "permission_handler (3.2.1+1)":
+    - Flutter
+  - Protobuf (3.9.0)
+  - Reachability (3.2)
+  - share (0.5.2):
+    - Flutter
+  - shared_preferences (0.0.1):
+    - Flutter
+  - sqflite (0.0.1):
+    - Flutter
+    - FMDB (~> 2.7.2)
+  - vrview (0.0.1):
+    - Flutter
+  - webview_flutter (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - audioplayers (from `.symlinks/plugins/audioplayers/ios`)
+  - connectivity (from `.symlinks/plugins/connectivity/ios`)
+  - fast_qr_reader_view (from `.symlinks/plugins/fast_qr_reader_view/ios`)
+  - Firebase/Analytics
+  - firebase_core (from `.symlinks/plugins/firebase_core/ios`)
+  - Flutter (from `.symlinks/flutter/ios`)
+  - flutter_beacon (from `.symlinks/plugins/flutter_beacon/ios`)
+  - flutter_blue (from `.symlinks/plugins/flutter_blue/ios`)
+  - geolocator (from `.symlinks/plugins/geolocator/ios`)
+  - google_api_availability (from `.symlinks/plugins/google_api_availability/ios`)
+  - google_maps_flutter (from `.symlinks/plugins/google_maps_flutter/ios`)
+  - intro_slider (from `.symlinks/plugins/intro_slider/ios`)
+  - location_permissions (from `.symlinks/plugins/location_permissions/ios`)
+  - path_provider (from `.symlinks/plugins/path_provider/ios`)
+  - permission_handler (from `.symlinks/plugins/permission_handler/ios`)
+  - share (from `.symlinks/plugins/share/ios`)
+  - shared_preferences (from `.symlinks/plugins/shared_preferences/ios`)
+  - sqflite (from `.symlinks/plugins/sqflite/ios`)
+  - vrview (from `.symlinks/plugins/vrview/ios`)
+  - webview_flutter (from `.symlinks/plugins/webview_flutter/ios`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - "!ProtoCompiler"
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseInstanceID
+    - FMDB
+    - GoogleAppMeasurement
+    - GoogleMaps
+    - GoogleUtilities
+    - nanopb
+    - Protobuf
+    - Reachability
+
+EXTERNAL SOURCES:
+  audioplayers:
+    :path: ".symlinks/plugins/audioplayers/ios"
+  connectivity:
+    :path: ".symlinks/plugins/connectivity/ios"
+  fast_qr_reader_view:
+    :path: ".symlinks/plugins/fast_qr_reader_view/ios"
+  firebase_core:
+    :path: ".symlinks/plugins/firebase_core/ios"
+  Flutter:
+    :path: ".symlinks/flutter/ios"
+  flutter_beacon:
+    :path: ".symlinks/plugins/flutter_beacon/ios"
+  flutter_blue:
+    :path: ".symlinks/plugins/flutter_blue/ios"
+  geolocator:
+    :path: ".symlinks/plugins/geolocator/ios"
+  google_api_availability:
+    :path: ".symlinks/plugins/google_api_availability/ios"
+  google_maps_flutter:
+    :path: ".symlinks/plugins/google_maps_flutter/ios"
+  intro_slider:
+    :path: ".symlinks/plugins/intro_slider/ios"
+  location_permissions:
+    :path: ".symlinks/plugins/location_permissions/ios"
+  path_provider:
+    :path: ".symlinks/plugins/path_provider/ios"
+  permission_handler:
+    :path: ".symlinks/plugins/permission_handler/ios"
+  share:
+    :path: ".symlinks/plugins/share/ios"
+  shared_preferences:
+    :path: ".symlinks/plugins/shared_preferences/ios"
+  sqflite:
+    :path: ".symlinks/plugins/sqflite/ios"
+  vrview:
+    :path: ".symlinks/plugins/vrview/ios"
+  webview_flutter:
+    :path: ".symlinks/plugins/webview_flutter/ios"
+
+SPEC CHECKSUMS:
+  "!ProtoCompiler": 7fc49078ec544d0347264496f6cd09b8132536b5
+  audioplayers: 84f968cea3f2deab00ec4f8ff53358b3c0b3992c
+  connectivity: c72716e202a1225ec4810740d5cb56b8ae3bf4cc
+  fast_qr_reader_view: 53b38a544886e650381ca579e0cdd5ae142fffa6
+  Firebase: 5965bac23e7fcb5fa6d926ed429c9ecef8a2014e
+  firebase_core: b3b02d0b5e9d01aab5e50ba7cbcf84c73cb6883c
+  FirebaseAnalytics: 629301c2b9925f3537d4093a17a72751ae5b7084
+  FirebaseCore: b0f0262acebfa540e5f97b3832dbb13186980822
+  FirebaseInstanceID: 662b8108a09fe9ed01aafdedba100fde8536b0f6
+  Flutter: 58dd7d1b27887414a370fcccb9e645c08ffd7a6a
+  flutter_beacon: fb0e74e0bd42b9e09dc4bdd9e87b01ced7a82355
+  flutter_blue: 8b2e51c564051f980f96a421cf9037667ac28e77
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  geolocator: 9041fddc3646e5144b49c9843632365ef78d6ac2
+  google_api_availability: 163b30f802e6148c67f092aa4501c90ddd8eec8d
+  google_maps_flutter: 78a52114c898b42ea647919679a4c58b70abe876
+  GoogleAppMeasurement: 51d8d9ea48f0ca44484d29cfbdef976fbd4fc336
+  GoogleMaps: 5046d7edfe381c1a0b20fdaf293915a375c3122b
+  GoogleUtilities: d2b0e277a95962e09bb27f5cd42f5f0b6a506c7d
+  intro_slider: 85847639533bfd8e898d76844e0aa2cf412ee190
+  location_permissions: 67cfaff583afbb027a9f9248196f4b79c40f3cdc
+  nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
+  path_provider: f96fff6166a8867510d2c25fdcc346327cc4b259
+  permission_handler: 6a1b2f94f866da8bd19fa67f3c8f4b9f38580efb
+  Protobuf: 1097ca58584c8d9be81bfbf2c5ff5975648dd87a
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  share: 7d22fe8baedfe93aefd864bf0b73f29711fbb0a3
+  shared_preferences: 1feebfa37bb57264736e16865e7ffae7fc99b523
+  sqflite: ff1d9da63c06588cc8d1faf7256d741f16989d5a
+  vrview: 8b9f8ebb306805d7c90f3c9e17f5093230c24da1
+  webview_flutter: 1aa7604e6cdb451a9b7ed2c37d5454c0b440246b
+
+PODFILE CHECKSUM: 083c403a6210e11a2bbb02a6a84ab90bc38f07ac
+
+COCOAPODS: 1.7.2
